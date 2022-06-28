@@ -35,6 +35,13 @@ public class Etudiant {
     }
     
     
+    public void infoEtudiant(String pNom, int pMat){
+      pNom = this.nom;
+      pMat = this.matricule;
+      
+      System.out.println("Nom : "+pNom+"& Maticule :"+pMat);
+    
+    }
     
     
 }
