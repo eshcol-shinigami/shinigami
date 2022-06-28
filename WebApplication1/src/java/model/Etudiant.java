@@ -8,7 +8,7 @@ package model;
  *
  * @author SHINIGAMI_ESHCOL
  */
-public class Etudiant {
+public class Etudiant implements InterfaceRoleEtudiant{
       
     public String nom;
     public int matricule;
@@ -41,6 +41,16 @@ public class Etudiant {
       
       System.out.println("Nom : "+pNom+"& Maticule :"+pMat);
     
+    }
+
+    @Override
+    public void calculNote() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public void saluer() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
     
